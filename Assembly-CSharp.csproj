@@ -65,28 +65,29 @@
   <ItemGroup>
     <Compile Include="Assets\Behaviour\DeathBehaviour.cs" />
     <Compile Include="Assets\Behaviour\SpellBehavior.cs" />
-    <Compile Include="Assets\Scripts\Block.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Block.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Character.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Enemy.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\LayerSorter.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\NPC.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Player.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Range.cs" />
+    <Compile Include="Assets\Scripts\CharacterRelated\Stat.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\AttackState.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\EvadeState.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\FollowState.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\IdleState.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\IState.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\LayerSorter.cs" />
-    <Compile Include="Assets\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\NPC.cs" />
-    <Compile Include="Assets\Scripts\Obstacles.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Range.cs" />
-    <Compile Include="Assets\Scripts\Spell.cs" />
-    <Compile Include="Assets\Scripts\SpellBook.cs" />
-    <Compile Include="Assets\Scripts\SpellScript.cs" />
-    <Compile Include="Assets\Scripts\Stat.cs" />
+    <Compile Include="Assets\Scripts\Environment\Obstacles.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\KeybindManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\SpellS\Spell.cs" />
+    <Compile Include="Assets\Scripts\SpellS\SpellBook.cs" />
+    <Compile Include="Assets\Scripts\SpellS\SpellScript.cs" />
     <Compile Include="Assets\Scripts\TileScripts\WaterTile.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/PC/Documents/GitHub/RPG Tutorial With InScope Studios/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

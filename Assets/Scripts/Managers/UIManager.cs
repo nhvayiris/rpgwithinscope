@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -20,12 +21,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject targetFrame;
     [SerializeField] private Image portraitFrame;
     [SerializeField] private CanvasGroup keybindMenu;
-
+    
+    private GameObject[] keybindButtons;
     private Stat healthStat;
     private KeyCode action1, action2, action3;
-    
 
-    
+
+    private void Awake()
+    {
+        keybindButtons = GameObject.FindGameObjectsWithTag("Keybind");
+    }
     private void Start()
     {
         healthStat = targetFrame.GetComponentInChildren<Stat>();
@@ -86,5 +91,11 @@ public class UIManager : MonoBehaviour
         keybindMenu.alpha = keybindMenu.alpha > 0 ? 0 : 1;
         keybindMenu.blocksRaycasts = keybindMenu.blocksRaycasts == true ? false: true;
         Time.timeScale = Time.timeScale > 0 ? 0 : 1; //pause game
+    }
+
+    public void UpdateKeyText(string key, KeyCode code)
+    {
+        Text temp = Array.Find(keybindButtons, x => x.name == key).GetComponentInChildren<Text>();
+        temp.text = code.ToString();
     }
 }
