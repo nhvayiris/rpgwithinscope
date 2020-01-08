@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: caec3ac880c5c5e4a93c427c8019152a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5671942465801722025
+    second: dummies_0
+  - first:
+      213: 8731097185854543108
+    second: dummies_1
+  - first:
+      213: 719054669287858824
+    second: dummies_2
+  - first:
+      213: 4778419357804133189
+    second: dummies_3
+  - first:
+      213: 2610458606310689336
+    second: dummies_4
+  - first:
+      213: 8383796525091582230
+    second: dummies_5
+  - first:
+      213: 6285923634578499277
+    second: dummies_6
+  - first:
+      213: -8569586034216624799
+    second: dummies_7
+  - first:
+      213: 2072122177620086054
+    second: dummies_8
+  - first:
+      213: 4011863864384578104
+    second: dummies_9
+  - first:
+      213: 6227330062965353978
+    second: dummies_10
+  - first:
+      213: 4582708069413227280
+    second: dummies_11
+  - first:
+      213: -1119832359819096245
+    second: dummies_12
+  - first:
+      213: 2151014501070761085
+    second: dummies_13
+  - first:
+      213: -7230378499102721559
+    second: dummies_14
+  - first:
+      213: 5773520121218152786
+    second: dummies_15
+  - first:
+      213: 1804080312241369226
+    second: dummies_16
+  - first:
+      213: 4088074132166523848
+    second: dummies_17
+  - first:
+      213: -255057637032984970
+    second: dummies_18
+  - first:
+      213: 5741256447495455260
+    second: dummies_19
+  - first:
+      213: -5464040636508582145
+    second: dummies_20
+  - first:
+      213: -7785055522149917809
+    second: dummies_21
+  - first:
+      213: -3193520127914124159
+    second: dummies_22
+  - first:
+      213: 7634253143078111177
+    second: dummies_23
+  - first:
+      213: -515609442208281038
+    second: dummies_24
+  - first:
+      213: -774113525839883867
+    second: dummies_25
+  - first:
+      213: -2385697437925526393
+    second: dummies_26
+  - first:
+      213: -807422215831227641
+    second: dummies_27
+  - first:
+      213: -494309562375723038
+    second: dummies_28
+  - first:
+      213: -3279874429431150223
+    second: dummies_29
+  - first:
+      213: 7520848661012062780
+    second: dummies_30
+  - first:
+      213: 7259490176279110634
+    second: dummies_31
+  - first:
+      213: -1505557301134552137
+    second: dummies_32
+  - first:
+      213: -4661427383182854908
+    second: dummies_33
+  - first:
+      213: -291477690555811366
+    second: dummies_34
+  - first:
+      213: 917370612827167847
+    second: dummies_35
+  - first:
+      213: 4914000368417630492
+    second: dummies_36
+  - first:
+      213: -2651832135628411907
+    second: dummies_37
+  - first:
+      213: -2199116933242011091
+    second: dummies_38
+  - first:
+      213: -5822662596768716230
+    second: dummies_39
+  - first:
+      213: -9001299730865934495
+    second: dummies_40
+  - first:
+      213: 6776664894589866911
+    second: dummies_41
+  - first:
+      213: 5712551793260790471
+    second: dummies_42
+  - first:
+      213: 5641034245924772195
+    second: dummies_43
+  - first:
+      213: 1513184207946967170
+    second: dummies_44
+  - first:
+      213: -495358361395198527
+    second: dummies_45
+  - first:
+      213: 4045436042520941890
+    second: dummies_46
+  - first:
+      213: 1346823184809908827
+    second: dummies_47
+  - first:
+      213: -2039931712580977568
+    second: dummies_48
+  - first:
+      213: -4583953811377444396
+    second: dummies_49
+  - first:
+      213: -8227411860662025323
+    second: dummies_50
+  - first:
+      213: -3710091948299978955
+    second: dummies_51
+  - first:
+      213: -8878989247636173270
+    second: dummies_52
+  - first:
+      213: -3969186534648193050
+    second: dummies_53
+  - first:
+      213: 4532455561298852183
+    second: dummies_54
+  - first:
+      213: 8814334225158360090
+    second: dummies_55
+  - first:
+      213: 8680812214607701324
+    second: dummies_56
+  - first:
+      213: 1816946074263421802
+    second: dummies_57
+  - first:
+      213: 3149322255243581343
+    second: dummies_58
+  - first:
+      213: -3187419141417649234
+    second: dummies_59
+  - first:
+      213: -4348018068410825616
+    second: dummies_60
+  - first:
+      213: -400826046275926762
+    second: dummies_61
+  - first:
+      213: -2769045650789211257
+    second: dummies_62
+  - first:
+      213: 1351758605255463636
+    second: dummies_63
+  - first:
+      213: -8981618798396532931
+    second: dummies_64
+  - first:
+      213: -7036551103477548992
+    second: dummies_65
+  - first:
+      213: -4875745342793510211
+    second: dummies_66
+  - first:
+      213: 8084992245295407884
+    second: dummies_67
+  - first:
+      213: 3250543661882318586
+    second: dummies_68
+  - first:
+      213: -131447029943723386
+    second: dummies_69
+  - first:
+      213: -1008741626644645705
+    second: dummies_70
+  - first:
+      213: -7329177570798935181
+    second: dummies_71
+  - first:
+      213: 7012813978196722530
+    second: dummies_72
+  - first:
+      213: 3079683821138395326
+    second: dummies_73
+  - first:
+      213: 669735695867749150
+    second: dummies_74
+  - first:
+      213: 6604441451031311540
+    second: dummies_75
+  - first:
+      213: -4092445273499275169
+    second: dummies_76
+  - first:
+      213: 7432487123032807535
+    second: dummies_77
+  - first:
+      213: -2279157920011884496
+    second: dummies_78
+  - first:
+      213: -3567438926962852101
+    second: dummies_79
+  - first:
+      213: -5424278374390274500
+    second: dummies_80
+  - first:
+      213: 3996427300009250860
+    second: dummies_81
+  - first:
+      213: 3294572409067681266
+    second: dummies_82
+  - first:
+      213: 2345860926618950678
+    second: dummies_83
+  - first:
+      213: -2713366598111675913
+    second: dummies_84
+  - first:
+      213: 8985228297470232424
+    second: dummies_85
+  - first:
+      213: -1698192286927081923
+    second: dummies_86
+  - first:
+      213: -4230163847144883138
+    second: dummies_87
+  - first:
+      213: 7644697560890380846
+    second: dummies_88
+  - first:
+      213: -508850060679963192
+    second: dummies_89
+  - first:
+      213: 7935661714568876722
+    second: dummies_90
+  - first:
+      213: 5338992250491388842
+    second: dummies_91
+  - first:
+      213: -9104306486487850569
+    second: dummies_92
+  - first:
+      213: -6005857460012746018
+    second: dummies_93
+  - first:
+      213: 9116865505737562391
+    second: dummies_94
+  - first:
+      213: -5323013785701421495
+    second: dummies_95
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dummies_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 563
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2058df62870c2764b8fb48e01802e729
+      internalID: -5671942465801722025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 565
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6906f5ab03561704bb6597fcd21086f2
+      internalID: 8731097185854543108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 563
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603546be72546834a8792e3f4ed65d2f
+      internalID: 719054669287858824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 563
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0d643f14346546b336429ecb73132
+      internalID: 4778419357804133189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 565
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e85a5def717d343b280df3beb7adb3
+      internalID: 2610458606310689336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 563
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c72231895414a459bc21c7307ae4ce
+      internalID: 8383796525091582230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 563
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeac8bd16efe72847a4bc4bca8e9f64f
+      internalID: 6285923634578499277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 565
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30448cfb2c41eac4eaaca6e9f578da78
+      internalID: -8569586034216624799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 563
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713172ec32323df40b1eb5a03f409b5c
+      internalID: 2072122177620086054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 563
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61538989d36d7bb4d8a1ffdfff757753
+      internalID: 4011863864384578104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 565
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64851aaf444a584489c6651aef81ae6
+      internalID: 6227330062965353978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 563
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb50a8bb9a1224440ad686a60b46133a
+      internalID: 4582708069413227280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 486
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879f672de3633134b8991a4e2bfef935
+      internalID: -1119832359819096245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 486
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c32a149868d9c46bfdae7eee40d9ba
+      internalID: 2151014501070761085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 486
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0f16aec55f1164c85edec7f59219a6
+      internalID: -7230378499102721559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 486
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5458d798c1a5a42a1d49c7a398b90b
+      internalID: 5773520121218152786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 486
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfc4a6559288cb42bebb8e063643584
+      internalID: 1804080312241369226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 486
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd592e33751c7d840b036d5cb9e75b41
+      internalID: 4088074132166523848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 486
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c36642ea0345574aa499596df35d99b
+      internalID: -255057637032984970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 486
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22555c1275b3fca49a47a6a3317c5512
+      internalID: 5741256447495455260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 486
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed540ef500bd2143b20f17258f7e732
+      internalID: -5464040636508582145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 486
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdca48c4496b2e4e80bd249ee555252
+      internalID: -7785055522149917809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 486
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ece50327622e87428b677af11393837
+      internalID: -3193520127914124159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 486
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fae54fcd317949bbb23c3198aadf0
+      internalID: 7634253143078111177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 406
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2081a9cd85161084395f99710fad4ba4
+      internalID: -515609442208281038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 406
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867e6ddf4577ae843b80b1a0c04c0e7d
+      internalID: -774113525839883867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 406
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1689e16bd9c79499077bda9c060007
+      internalID: -2385697437925526393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 406
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2882123e1769384cb106db5f2b70281
+      internalID: -807422215831227641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 406
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed5deaf3c0d5704f97e5b20325b00d1
+      internalID: -494309562375723038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 406
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89f30b1852c0b4dbe89b8558042587
+      internalID: -3279874429431150223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_30
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 406
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c91510d3c46d8a48a2892eadc802a69
+      internalID: 7520848661012062780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 406
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39ee967665dc63418ef5d87fd856502
+      internalID: 7259490176279110634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 406
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c015b66dcca554485fb61188edd729
+      internalID: -1505557301134552137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_33
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 406
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100198b025ed6fa4d80dfc7a8ad4b6da
+      internalID: -4661427383182854908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_34
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 406
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b7b775f9607344b756584d56525bc
+      internalID: -291477690555811366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 406
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c373e57775048843bac78063de843eb
+      internalID: 917370612827167847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 324
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc69ace86ef6f764f893da91b3a880e5
+      internalID: 4914000368417630492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 326
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc868ff95df7e4c8532ffef46861b1
+      internalID: -2651832135628411907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 324
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982def1808643fe4aa909e337454b4ab
+      internalID: -2199116933242011091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 324
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e964a98d73a144381a9779c507da10
+      internalID: -5822662596768716230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 326
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9da11008e2c4a4c9d083b352d47d57
+      internalID: -9001299730865934495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 324
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a63fad7367da64893916070acc7731
+      internalID: 6776664894589866911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 324
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00521a6524dc6b499294744f09ca92a
+      internalID: 5712551793260790471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 326
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c73144937fce6a48b9e33806d9b2149
+      internalID: 5641034245924772195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 324
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f5aade3eed644eb9a4b74da5513be
+      internalID: 1513184207946967170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_45
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 324
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c63177771a2b6c43baffb56b0d01fbe
+      internalID: -495358361395198527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_46
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 326
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283a7b2c247fdba47b7a1b9f0f428767
+      internalID: 4045436042520941890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_47
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 324
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c2cd1ab4107ee45998e63dff20f884
+      internalID: 1346823184809908827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 243
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739bd99659a1e024b85e20d16e00cd9d
+      internalID: -2039931712580977568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 245
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a72c265bad5f94b8fe1a77efb9e837
+      internalID: -4583953811377444396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_50
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 243
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af489a821019c06449966fdc6fbac126
+      internalID: -8227411860662025323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_51
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 243
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5dcb9943907764495066ec6a229d1e
+      internalID: -3710091948299978955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_52
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 245
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3942127abf4da1745b8d7bbaf23312ff
+      internalID: -8878989247636173270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 243
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce83bad2d0ca6f4981b727e2f043140
+      internalID: -3969186534648193050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_54
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 243
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0274201d95048cd4b8c46dd7625ced42
+      internalID: 4532455561298852183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_55
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 245
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d39db101221d9b4b879b92afac4e056
+      internalID: 8814334225158360090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_56
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 243
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5343629a51e899489fc58c6318e8f69
+      internalID: 8680812214607701324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_57
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 243
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3ae269b61de5449eeb137420be889
+      internalID: 1816946074263421802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_58
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 245
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c86f669c57acd46b4474910a5cf196
+      internalID: 3149322255243581343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_59
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 243
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fc621ec4b17b44a8773cb417a8ed00
+      internalID: -3187419141417649234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_60
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2756f61b456f99d49a68792c66f5c99b
+      internalID: -4348018068410825616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 166
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bff5df69c134ad4c95244d6927e9f29
+      internalID: -400826046275926762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_62
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f295f571fea8a4dae2f50d0ebdbe66
+      internalID: -2769045650789211257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015b9052ef0c78479d4a2547a6af400
+      internalID: 1351758605255463636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_64
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 166
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e57e45a1116c46aba2725d6d09508
+      internalID: -8981618798396532931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_65
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5658b0959991f474883170c123fdb7d2
+      internalID: -7036551103477548992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_66
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 166
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb5506388241134ba92f8c8bb077380
+      internalID: -4875745342793510211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_67
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 166
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104beface920f9b4e9f76ea09c1795a1
+      internalID: 8084992245295407884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_68
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 166
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0a6103b88f3a4bb8e8e734b88ac2a
+      internalID: 3250543661882318586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_69
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9ef8a5e9ab17147838216912b349dc
+      internalID: -131447029943723386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_70
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 166
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66237a2fa0480f408779e05b534acf9
+      internalID: -1008741626644645705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_71
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 166
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d309ee53bea944691e56671edb187c
+      internalID: -7329177570798935181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 86
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7303144db06a4a83a2e3dbaeaa749
+      internalID: 7012813978196722530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_73
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 86
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3c9e0cf2f21ab45918e394b3933f00
+      internalID: 3079683821138395326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 86
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe24964f31d55c4bae45eddee3384aa
+      internalID: 669735695867749150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 86
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293c2365479e464283c218a62a7f1b0
+      internalID: 6604441451031311540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_76
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 86
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f934d00d737844a95045db7e1c9648
+      internalID: -4092445273499275169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_77
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 86
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae7f9bc0ea07344197767ed7c2d8242
+      internalID: 7432487123032807535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 86
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f99fbc6369454d91d5ec4fa922112
+      internalID: -2279157920011884496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_79
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 86
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e496802b2266d14b87a7e4543369c86
+      internalID: -3567438926962852101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_80
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 86
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f1d582ecd6ca247ba22521fa36c2f7
+      internalID: -5424278374390274500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_81
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 86
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962362bbb045dff4496d887abdcd2b2b
+      internalID: 3996427300009250860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_82
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 86
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027d58de88e705145b9430a371ade5e3
+      internalID: 3294572409067681266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_83
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 86
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9eb25d45eba94bb6d68c83f4e04e7
+      internalID: 2345860926618950678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_84
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e021c64fefd41498b19927d71f2ac8
+      internalID: -2713366598111675913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_85
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 6
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b856d383a7734cb088489b9a969e9
+      internalID: 8985228297470232424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_86
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e9dd68e8dcc274f8db95e42135a4a9
+      internalID: -1698192286927081923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_87
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efe24e098dfe8948a05ed06f4fec7fc
+      internalID: -4230163847144883138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_88
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 6
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc70991453ca945aecbc64f90fa8bf
+      internalID: 7644697560890380846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_89
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 4
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26be12f9fcf39db4fa99f3025e0baaa1
+      internalID: -508850060679963192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_90
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 4
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6f1aff92f84d9419e8b17c7febd558
+      internalID: 7935661714568876722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_91
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fbb8ba9541ead45ad7c699ed6d6b74
+      internalID: 5338992250491388842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_92
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 4
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffbd696fbf5d724aa90b4ed4710bed1
+      internalID: -9104306486487850569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_93
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 4
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f10f3d83709c447ab25c876ac81120
+      internalID: -6005857460012746018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_94
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 6
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62802873b9b21d44b6d2c84c5cef7c7
+      internalID: 9116865505737562391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummies_95
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 4
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ea7e425fa794347bc75fb948e7a4e2
+      internalID: -5323013785701421495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

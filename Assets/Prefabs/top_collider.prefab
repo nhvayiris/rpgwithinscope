@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6662393262669326804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662393262669326807}
+  - component: {fileID: 6662393262669326806}
+  - component: {fileID: 297155095}
+  m_Layer: 0
+  m_Name: top_collider
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6662393262669326807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662393262669326804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &6662393262669326806
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662393262669326804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.52904034, y: 1.3936851}
+      - {x: 0.058595657, y: 2.2598033}
+      - {x: -0.42369652, y: 0.8510256}
+      - {x: -0.4312477, y: -0.06583607}
+      - {x: -0.6317315, y: -0.14981759}
+      - {x: -0.60225296, y: -0.5536175}
+      - {x: -0.9050722, y: -0.893244}
+      - {x: -0.737401, y: -1.2326921}
+      - {x: -1.1074114, y: -1.5319769}
+      - {x: -0.8413172, y: -1.8380256}
+      - {x: -1.0005198, y: -2.125698}
+      - {x: -0.69699574, y: -2.174501}
+      - {x: 0.3177657, y: -2.1673841}
+      - {x: 0.979095, y: -2.1390476}
+      - {x: 0.97456217, y: -1.9407749}
+      - {x: 0.9301276, y: -1.1632717}
+      - {x: 0.65072536, y: -0.80690336}
+      - {x: 0.6463809, y: -0.5453373}
+      - {x: 0.67272806, y: 0.35296357}
+--- !u!114 &297155095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662393262669326804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79042a2ca69134d4d94246e143a19b38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemapRenderer: {fileID: 0}
