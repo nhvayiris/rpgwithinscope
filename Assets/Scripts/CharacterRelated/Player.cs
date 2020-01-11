@@ -3,6 +3,19 @@ using UnityEngine;
 
 public class Player : Character
 {
+    private static Player instance;
+    public static Player Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<Player>();
+            }
+            return instance;
+        }
+    }
+
     [SerializeField] private Stat stamina;
     [SerializeField] private Stat aether;
     [SerializeField] private float maxAether;
@@ -41,43 +54,51 @@ public class Player : Character
     {
         Direction = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeybindManager.MyInstance.Keybinds["Up"]))
         {
             exitIndex = 0;
             Direction += Vector2.up;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeybindManager.MyInstance.Keybinds["Left"]))
         {
             exitIndex = 3;
             Direction += Vector2.left;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeybindManager.MyInstance.Keybinds["Down"]))
         {
             exitIndex = 2;
             Direction += Vector2.down;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeybindManager.MyInstance.Keybinds["Right"]))
         {
             exitIndex = 1;
             Direction += Vector2.right;
         }
 
-        // Debugging Key
-        if (Input.GetKeyDown(KeyCode.I))
+        foreach (string action in KeybindManager.MyInstance.ActionBinds.Keys)
         {
-            health.MyCurrentValue -= 10;
-            stamina.MyCurrentValue -= 10;
-            aether.MyCurrentValue += 10;
+            if (Input.GetKeyDown(KeybindManager.MyInstance.ActionBinds[action]))
+            {
+                UIManager.Instance.ClickActionButton(action);
+            }
         }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            health.MyCurrentValue += 10;
-            stamina.MyCurrentValue += 10;
-            aether.MyCurrentValue -= 10;
-        }
+
+        //// Debugging Key
+        //if (Input.GetKeyDown(KeyCode.I))
+        //{
+        //    health.MyCurrentValue -= 10;
+        //    stamina.MyCurrentValue -= 10;
+        //    aether.MyCurrentValue += 10;
+        //}
+        //if (Input.GetKeyDown(KeyCode.O))
+        //{
+        //    health.MyCurrentValue += 10;
+        //    stamina.MyCurrentValue += 10;
+        //    aether.MyCurrentValue -= 10;
+        //}
         if (IsMoving)
         {
             StopAttack();
@@ -89,10 +110,10 @@ public class Player : Character
         this.min = min;
         this.max = max;
     }
-    private IEnumerator Attack(int spellIndex)
+    private IEnumerator Attack(string spellName)
     {
         Transform currentTarget = MyTarget;
-        Spell newSpell = spellBook.CastSpell(spellIndex);
+        Spell newSpell = spellBook.CastSpell(spellName);
         IsAttacking = true;
         MyAnimator.SetBool("Attack", IsAttacking);
         yield return new WaitForSeconds(newSpell.MyCastTime); //test cast time for debugging
@@ -104,12 +125,12 @@ public class Player : Character
         StopAttack();
     }
 
-    public void CastSpell(int spellIndex)
+    public void CastSpell(string spellName)
     {
         Block();
         if (MyTarget != null && MyTarget.GetComponentInParent<Character>().IsAlive && !(IsAttacking && IsMoving) && InLineOfSight())  ///rw
         {
-            attackRoutine = StartCoroutine(Attack(spellIndex));
+            attackRoutine = StartCoroutine(Attack(spellName));
         } 
     }
 

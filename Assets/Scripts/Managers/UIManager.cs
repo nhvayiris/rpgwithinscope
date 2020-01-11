@@ -17,14 +17,13 @@ public class UIManager : MonoBehaviour
         }
     }
     
-    [SerializeField] private Button[] actionButtons;
+    [SerializeField] private ActionButton[] actionButtons;
     [SerializeField] private GameObject targetFrame;
     [SerializeField] private Image portraitFrame;
     [SerializeField] private CanvasGroup keybindMenu;
     
     private GameObject[] keybindButtons;
     private Stat healthStat;
-    private KeyCode action1, action2, action3;
 
 
     private void Awake()
@@ -34,38 +33,20 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         healthStat = targetFrame.GetComponentInChildren<Stat>();
-        action1 = KeyCode.Alpha1;
-        action2 = KeyCode.Alpha2;
-        action3 = KeyCode.Alpha3;
+
+        SetUsable(actionButtons[0], SpellBook.Instance.GetSpell("Fireball"));
+        SetUsable(actionButtons[1], SpellBook.Instance.GetSpell("Frostbolt"));
+        SetUsable(actionButtons[2], SpellBook.Instance.GetSpell("Thunderbolt"));
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(action1))
-        {
-            ActionButtonOnClick(0);
-        }
-
-        if (Input.GetKeyDown(action2))
-        {
-            ActionButtonOnClick(1);
-        }
-
-        if (Input.GetKeyDown(action3))
-        {
-            ActionButtonOnClick(2);
-        }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             OpenCloseMenu();
         }
 
     }
-
-    private void ActionButtonOnClick(int btnIndex) 
-        {
-            actionButtons[btnIndex].onClick.Invoke();
-        } 
 
     public void ShowTargetFrame(NPC target)
     {
@@ -97,5 +78,17 @@ public class UIManager : MonoBehaviour
     {
         Text temp = Array.Find(keybindButtons, x => x.name == key).GetComponentInChildren<Text>();
         temp.text = code.ToString();
+    }
+
+    public void ClickActionButton(string buttonName)
+    {
+        Array.Find(actionButtons, x => x.gameObject.name == buttonName).MyButton.onClick.Invoke();
+    }
+
+    public void SetUsable(ActionButton button, IUsable usable)
+    {
+        button.MyButton.image.sprite = usable.MyIcon;
+        button.MyButton.image.color = Color.white;
+        button.MyUsable = usable;
     }
 }

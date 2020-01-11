@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [Serializable]
-public class Spell
+public class Spell : IUsable
 {
     [SerializeField] private string name;
     [SerializeField] private int damage;
@@ -19,4 +19,9 @@ public class Spell
     public float MyCastTime { get => castTime;}
     public GameObject MySpellPrefab { get => spellPrefab;}
     public Color MyBarColor { get => barColor;}
+
+    public void Use()
+    {
+        Player.Instance.CastSpell(MyName);
+    }
 }

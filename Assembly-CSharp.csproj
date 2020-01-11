@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Assets\Behaviour\DeathBehaviour.cs" />
     <Compile Include="Assets\Behaviour\SpellBehavior.cs" />
+    <Compile Include="Assets\Scripts\Buttons\ActionButton.cs" />
+    <Compile Include="Assets\Scripts\Buttons\IUsable.cs" />
     <Compile Include="Assets\Scripts\CharacterRelated\Block.cs" />
     <Compile Include="Assets\Scripts\CharacterRelated\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CharacterRelated\Character.cs" />
@@ -80,6 +82,11 @@
     <Compile Include="Assets\Scripts\EnemyStates\IdleState.cs" />
     <Compile Include="Assets\Scripts\EnemyStates\IState.cs" />
     <Compile Include="Assets\Scripts\Environment\Obstacles.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Bag.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Slot.cs" />
+    <Compile Include="Assets\Scripts\Items\BagItem.cs" />
+    <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\KeybindManager.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
