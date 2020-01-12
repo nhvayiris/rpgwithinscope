@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [Serializable]
-public class Spell : IUsable
+public class Spell : IUsable, IMovable
 {
     [SerializeField] private string name;
     [SerializeField] private int damage;

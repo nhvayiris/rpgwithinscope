@@ -8,9 +8,9 @@ public class ActionButton : MonoBehaviour, IPointerClickHandler
 { 
     public IUsable MyUsable { get; set; }
     public Button MyButton { get; private set; }
-    //public Image Icon { get => icon; set => icon = value; }
+    public Image MyIcon { get => icon; set => icon = value; }
 
-    private Image icon;
+    [SerializeField] private Image icon;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +35,25 @@ public class ActionButton : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            if (HandScript.MyInstance.MyMovable != null && HandScript.MyInstance.MyMovable is IUsable)
+            {
+                SetUsable(HandScript.MyInstance.MyMovable as IUsable);
+            }
+        }
+    }
+
+    public void SetUsable(IUsable usable)
+    {
+        this.MyUsable = usable;
+        
+        UpdateVisual();
+    }
+
+    public void UpdateVisual()
+    {
+        MyIcon.sprite = HandScript.MyInstance.Put().MyIcon;
+        MyIcon.color = Color.white;
     }
 }

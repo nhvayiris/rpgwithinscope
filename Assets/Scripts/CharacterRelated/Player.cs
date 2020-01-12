@@ -22,7 +22,7 @@ public class Player : Character
     [SerializeField] private Transform[] exitPoints;
     [SerializeField] private Block[] blocks;
     
-    private SpellBook spellBook;
+    
     private int exitIndex = 2;
     
     private float initialStamina = 100;
@@ -31,7 +31,7 @@ public class Player : Character
 
     protected override void Start()
     {
-        spellBook = GetComponent<SpellBook>();
+        
         stamina.Initialize(initialStamina, initialStamina);
         aether.Initialize(initialAether, maxAether);
         base.Start();
@@ -87,12 +87,12 @@ public class Player : Character
         }
 
         //// Debugging Key
-        //if (Input.GetKeyDown(KeyCode.I))
-        //{
-        //    health.MyCurrentValue -= 10;
-        //    stamina.MyCurrentValue -= 10;
-        //    aether.MyCurrentValue += 10;
-        //}
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            health.MyCurrentValue -= 10;
+            stamina.MyCurrentValue -= 10;
+            aether.MyCurrentValue += 10;
+        }
         //if (Input.GetKeyDown(KeyCode.O))
         //{
         //    health.MyCurrentValue += 10;
@@ -113,7 +113,7 @@ public class Player : Character
     private IEnumerator Attack(string spellName)
     {
         Transform currentTarget = MyTarget;
-        Spell newSpell = spellBook.CastSpell(spellName);
+        Spell newSpell = SpellBook.Instance.CastSpell(spellName);
         IsAttacking = true;
         MyAnimator.SetBool("Attack", IsAttacking);
         yield return new WaitForSeconds(newSpell.MyCastTime); //test cast time for debugging
@@ -159,7 +159,7 @@ public class Player : Character
 
     public void StopAttack()
     {
-        spellBook.StopCasting();
+        SpellBook.Instance.StopCasting();
 
         if (attackRoutine != null)
         {
@@ -167,5 +167,6 @@ public class Player : Character
             IsAttacking = false;
             MyAnimator.SetBool("Attack", IsAttacking);
         }
+
     }
 }

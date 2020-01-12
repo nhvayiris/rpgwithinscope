@@ -21,7 +21,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject targetFrame;
     [SerializeField] private Image portraitFrame;
     [SerializeField] private CanvasGroup keybindMenu;
-    
+    [SerializeField] private CanvasGroup spellBook;
+
     private GameObject[] keybindButtons;
     private Stat healthStat;
 
@@ -33,19 +34,23 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         healthStat = targetFrame.GetComponentInChildren<Stat>();
-
-        SetUsable(actionButtons[0], SpellBook.Instance.GetSpell("Fireball"));
-        SetUsable(actionButtons[1], SpellBook.Instance.GetSpell("Frostbolt"));
-        SetUsable(actionButtons[2], SpellBook.Instance.GetSpell("Thunderbolt"));
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            OpenCloseMenu();
+            OpenClose(keybindMenu);
         }
-
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            OpenClose(spellBook);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            InventoryScript.MyInstance.OpenClose();
+        }
     }
 
     public void ShowTargetFrame(NPC target)
@@ -67,12 +72,14 @@ public class UIManager : MonoBehaviour
         healthStat.MyCurrentValue = value;
     }
 
-    public void OpenCloseMenu()
+    public void OpenClose(CanvasGroup canvasGroup)
     {
-        keybindMenu.alpha = keybindMenu.alpha > 0 ? 0 : 1;
-        keybindMenu.blocksRaycasts = keybindMenu.blocksRaycasts == true ? false: true;
-        Time.timeScale = Time.timeScale > 0 ? 0 : 1; //pause game
+        canvasGroup.alpha = canvasGroup.alpha > 0 ? 0 : 1;
+        canvasGroup.blocksRaycasts = canvasGroup.blocksRaycasts == true ? false : true;
+
+
     }
+
 
     public void UpdateKeyText(string key, KeyCode code)
     {
@@ -85,10 +92,24 @@ public class UIManager : MonoBehaviour
         Array.Find(actionButtons, x => x.gameObject.name == buttonName).MyButton.onClick.Invoke();
     }
 
-    public void SetUsable(ActionButton button, IUsable usable)
+    public void UpdateStackSize(IClickable clickable)
     {
-        button.MyButton.image.sprite = usable.MyIcon;
-        button.MyButton.image.color = Color.white;
-        button.MyUsable = usable;
+        if (clickable.MyCount > 1)
+        {
+            clickable.MyStackText.text = clickable.MyCount.ToString();
+            clickable.MyStackText.color = Color.white;
+            clickable.MyIcon.color = Color.white;
+        }
+        else
+        {
+            clickable.MyStackText.color = new Color(0, 0, 0, 0);
+            clickable.MyIcon.color = Color.white;
+        }
+
+        if (clickable.MyCount == 0)
+        {
+            clickable.MyIcon.color = new Color(0, 0, 0, 0);
+            clickable.MyStackText.color = new Color(0, 0, 0, 0);
+        }
     }
 }
