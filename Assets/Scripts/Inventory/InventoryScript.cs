@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void ItemCountChanged(Item item);
 public class InventoryScript : MonoBehaviour
 {
+    public event ItemCountChanged ItemCountChangedEvent;
     private static InventoryScript instance;
     public static InventoryScript MyInstance
     {
@@ -50,12 +52,34 @@ public class InventoryScript : MonoBehaviour
         } 
     }
 
+    public int MyTotalSlotCount { 
+        get 
+        { 
+            int count = 0;
+            foreach (Bag bag in bags)
+            {
+                count += bag.MyBagScript.MySlots.Count;
+            }
+
+            return count;
+        }
+    }
+
+    public int MyFullSlotCount
+    {
+        get
+        {
+            return MyTotalSlotCount - MyEmptySlotCount;
+        }
+    }
+
     private void PlaceInEmpty(Item item)
     {
         foreach (Bag bag in bags)
         {
             if (bag.MyBagScript.AddItem(item))
             {
+                OnItemCountChanged(item);
                 return;
             }
         }
@@ -69,6 +93,7 @@ public class InventoryScript : MonoBehaviour
             {
                 if (slots.StackItem(item))
                 {
+                    OnItemCountChanged(item);
                     return true;
                 }
             }
@@ -77,11 +102,11 @@ public class InventoryScript : MonoBehaviour
         return false;
     }
 
-    
-
     private void Awake()
     {
-        MakeBag();
+        Bag bag = (Bag)Instantiate(items[0]);
+        bag.Initialize(15);
+        AddItem(bag);
     }
 
     private void Update()
@@ -89,7 +114,9 @@ public class InventoryScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J)) //debug
         {
             Debug.Log("J Is Pressed");
-            MakeBag();
+            Bag bag = (Bag)Instantiate(items[0]);
+            bag.Initialize(8);
+            AddItem(bag);
         }
 
         if (Input.GetKeyDown(KeyCode.K)) //debug
@@ -123,10 +150,41 @@ public class InventoryScript : MonoBehaviour
         }
     }
 
+    public void AddBag(Bag bag, BagButton bagButton) //overload function
+    {
+        bags.Add(bag);
+        bagButton.MyBag = bag;
+    }
+
     public void RemovedBag(Bag bag)
     {
         bags.Remove(bag); //remove specific bag in the list of bags within the inventory
         Destroy(bag.MyBagScript.gameObject);
+    }
+
+    public void SwapBags(Bag oldBag, Bag newBag)
+    {
+        int newSlotCount = (MyTotalSlotCount - oldBag.Slots) + newBag.Slots;
+        if (newSlotCount - MyFullSlotCount >= 0)
+        {
+            //do swap
+            List<Item> bagItems = oldBag.MyBagScript.GetItems();
+            RemovedBag(oldBag);
+            newBag.MyBagButton = oldBag.MyBagButton;
+            newBag.Use();
+
+            foreach (Item item in bagItems)
+            {
+                if (item != newBag) // no duplicate bags
+                {
+                    AddItem(item);
+                }
+            }
+
+            AddItem(oldBag);
+            HandScript.MyInstance.Drop();
+            MyInstance.fromSlot = null;
+        }
     }
 
     public void OpenClose()
@@ -141,13 +199,6 @@ public class InventoryScript : MonoBehaviour
         }
     }
 
-    private void MakeBag()
-    {
-        Bag bag = (Bag)Instantiate(items[0]);
-        bag.Initialize(15);
-        bag.Use();
-    }
-
     public void AddItem(Item item)
     {
         if (item.MyStackSize > 0)
@@ -158,6 +209,34 @@ public class InventoryScript : MonoBehaviour
             }
         }
         PlaceInEmpty(item);
+    }
+
+    public Stack<IUsable> GetUsables(IUsable type)
+    {
+        Stack<IUsable> usables = new Stack<IUsable>();
+        foreach (Bag bag in bags)
+        {
+            foreach (SlotScript slot in bag.MyBagScript.MySlots)
+            {
+                if (!slot.IsEmpty && slot.MyItem.GetType() == type.GetType())
+                {
+                    foreach (Item item in slot.MyItems)
+                    {
+                        usables.Push(item as IUsable);
+                    }
+                }
+            }
+        }
+
+        return usables;
+    }
+
+    public void OnItemCountChanged(Item item)
+    {
+        if (ItemCountChangedEvent != null)
+        {
+            ItemCountChangedEvent.Invoke(item);
+        }
     }
 
 }

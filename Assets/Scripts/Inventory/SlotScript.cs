@@ -87,7 +87,7 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler, IClickable
     {
         if (MyItems.Count > 0) // or write as if (!IsEmpty), literally the same thing 
         {
-            MyItems.Pop();
+            InventoryScript.MyInstance.OnItemCountChanged(MyItems.Pop());
         }
     }
 
@@ -95,6 +95,7 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler, IClickable
     {
         if (MyItems.Count > 0)
         {
+            InventoryScript.MyInstance.OnItemCountChanged(MyItems.Pop());
             MyItems.Clear();
         }
     }
@@ -105,8 +106,20 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler, IClickable
         {
             if (InventoryScript.MyInstance.FromSlot == null && !IsEmpty) //if there is nothing to move
             {
-                HandScript.MyInstance.TakeMovable(MyItem as IMovable);
-                InventoryScript.MyInstance.FromSlot = this;
+
+                if (HandScript.MyInstance.MyMovable != null && HandScript.MyInstance.MyMovable is Bag)
+                {
+                    if (MyItem is Bag)
+                    {
+                        InventoryScript.MyInstance.SwapBags(HandScript.MyInstance.MyMovable as Bag, MyItem as Bag);
+                    }
+                }
+                else
+                {
+                    HandScript.MyInstance.TakeMovable(MyItem as IMovable);
+                    InventoryScript.MyInstance.FromSlot = this;
+                }
+
             } 
             else if (InventoryScript.MyInstance.FromSlot == null && IsEmpty && (HandScript.MyInstance.MyMovable is Bag))
             {

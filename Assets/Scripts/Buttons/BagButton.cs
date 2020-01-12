@@ -19,7 +19,23 @@ public class BagButton : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (InventoryScript.MyInstance.FromSlot != null && HandScript.MyInstance.MyMovable != null && HandScript.MyInstance.MyMovable is Bag)
+            {
+                if (MyBag != null)
+                {
+                    InventoryScript.MyInstance.SwapBags(MyBag, HandScript.MyInstance.MyMovable as Bag);
+                }
+                else
+                {
+                    Bag tmp = (Bag)HandScript.MyInstance.MyMovable; //instantiate
+                    tmp.MyBagButton = this; //set bag to this
+                    tmp.Use();
+                    MyBag = tmp;
+                    HandScript.MyInstance.Drop();
+                    InventoryScript.MyInstance.FromSlot = null;
+                }
+            }
+            else if (Input.GetKey(KeyCode.LeftShift))
             {
                 HandScript.MyInstance.TakeMovable(MyBag);
             }

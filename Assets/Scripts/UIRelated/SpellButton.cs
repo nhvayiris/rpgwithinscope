@@ -11,6 +11,7 @@ public class SpellButton : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
+            Debug.Log("LMB clicks on spell");
             HandScript.MyInstance.TakeMovable(SpellBook.Instance.GetSpell(spellName));
         }
     }
